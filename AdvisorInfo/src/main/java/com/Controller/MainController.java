@@ -26,6 +26,7 @@ public class MainController {
     @RequestMapping("/")
 	public String firstpage()    
 	{
+    	System.out.println("GIT CHanging");
     	System.out.println("firstRequest");       
 		return "login";
 	}   
